@@ -5,6 +5,7 @@ public class Program0001 {
 	public static void fun()
 	{
 		int x=101234567;
+		
 		char y='a';
 				boolean a=true;
 		byte b=127;
