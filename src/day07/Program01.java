@@ -1,21 +1,34 @@
 package day07;
+import java.util.Scanner;
+
 
 public class Program01 {
 	
 
 	public static void main(String[] args) {
-		int a=10;
-		int b=20;
+		Scanner x=new Scanner(System.in);
+		System.out.println("Enter the Number:-");
+		
+		int a=x.nextInt();
+		
 		System.out.println("Start Program....!");
-		if(a>b)
-		{System.out.println("GoodDay..!");
+		if(a%2==0)
+		{
+			
+		System.out.println("a is even...!");
 		
 		}
-		System.out.println("End Program....!");
+		else
+		{
+		System.out.println("a is odd...!");
+		}
+		System.out.println("End Program...!");
+	}
+
 		
 		
 		// TODO Auto-generated method stub
 
 	}
 
-}
+
